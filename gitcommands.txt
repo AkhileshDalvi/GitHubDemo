@@ -1,4 +1,4 @@
-git init = This command is used to start a new repository or reinitalize the existing repository
+git init = This command is used to start a new repository or reinitialize the existing repository
 
 git config --global user.name "akhilesh"
 git config --global user.name "amey"
@@ -24,3 +24,6 @@ git commit -m "First Commit / Initial Version" = It is used to commit the files 
 -m = It is used to give message
 
 git log = It will show the list of all commit logs
+
+git diff = The command shows the file diff which are not yet staged and the last committed files
+git diff --staged = The command shows the file diff which are in staged area and the last committed files
