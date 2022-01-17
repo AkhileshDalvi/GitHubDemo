@@ -1,0 +1,26 @@
+git init = This command is used to start a new repository or reinitalize the existing repository
+
+git config --global user.name "akhilesh"
+git config --global user.name "amey"
+git config --global user.name "rushikesh"
+git config --global user.name "prathamesh"
+
+git config --global user.email "akhilesh@gamil.com"
+
+git config --list
+
+git status
+
+git add "index.html" = It will add specific file to staging area
+git add * = It will add all files and subfolder to the stating area
+git add .
+git add -A
+
+git rm --cached <filename> = It will upstaged the file / It will remove files from staging area
+git rm --cached <filename> -f = It staging area file and the upstaged file is diff and you still want to unstage you have to use the -f (Force) option
+
+git commit = It will commit the file file and the editor will be opened where you should give the message and close it
+git commit -m "First Commit / Initial Version" = It is used to commit the files to the git repository
+-m = It is used to give message
+
+git log = It will show the list of all commit logs
