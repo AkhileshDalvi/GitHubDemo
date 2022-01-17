@@ -41,16 +41,3 @@ git log --pretty --format=full
 git log --pretty --format=fuller
 git log --pretty --format=email
 git log --pretty --format=raw
-
-git reset <commit> = It will undo all the commits till the specified commit id and preserves the changes locally
-git reset --hard <commit> = Command discards all history and goes back to specified commit, files locally will be overridden
-
-git remote add origin https://github.com/AkhileshDalvi/GitHubDemo.git = This will connect remote repository with local repository
-git remote -v = It will list down all the remote repositories 
-
-git ls-files = It will list down all the files committed
-
-git push
-git pull
-
-git clone
